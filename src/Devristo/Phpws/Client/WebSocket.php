@@ -87,7 +87,7 @@ class WebSocket extends EventEmitter
         $connector = new Connector($this->loop, $this->dns, $this->streamOptions);
 
         if ($isSecured) {
-            $connector = new \React\SocketClient\SecureConnector($connector, $this->loop);
+            $connector = new \React\Socket\SecureConnector($connector, $this->loop);
         }
 
         $deferred = new Deferred();
