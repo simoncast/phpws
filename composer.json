@@ -12,13 +12,7 @@
         "psr-0": {
             "Devristo\\Phpws\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/simoncast/phpws"
-        }
-    ],    
+    },  
     "require": {
         "zendframework/zend-log": "2.*",
         "react/socket": "^0.8.0",
